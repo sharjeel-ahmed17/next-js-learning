@@ -1,6 +1,6 @@
-export default function Student({ params, searchParams }: {
+export default function Student({ params }: {
     params: { student: string },
-    searchParams: { id: string },
+
 }) {
 
     return (

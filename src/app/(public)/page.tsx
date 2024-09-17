@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import Header from "../components/header/Header";
+// import Header from "../components/header/Header";
 
 export default function Home() {
 
