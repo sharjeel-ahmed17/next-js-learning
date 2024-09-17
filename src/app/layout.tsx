@@ -26,8 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
+
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* <h1>show in all routes</h1> */}
         {children}
       </body>
     </html>
